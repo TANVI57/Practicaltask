@@ -1,0 +1,41 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .paper {
+    padding: 24px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .question {
+    margin-bottom: 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .radioGroup {
+    margin-bottom: 24px;
+  }
+  
+  .submitbutton {
+    position: relative;
+    left: 48%;top: 80px;
+  }
+  
+  .resultText {
+    margin-top: 16px;
+    color: red;
+  }
+  
